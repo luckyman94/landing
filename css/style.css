@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+ 
 /**********************/
 /* ALL DOCUMENT */
 /**********************/
@@ -235,7 +235,6 @@ header ul li a:hover::before {
 .features{
 
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     font-weight: 100;
@@ -247,11 +246,11 @@ header ul li a:hover::before {
     background-color: #2A3556;
     width: 25rem;
     font-size: 1.5rem;
-    height: 35rem;
+    height: 30rem;
     padding: 1.5em;
     max-width: 33rem;
     border-radius: 6rem;
-    margin-left: -80vh;
+    margin-left: -95vh;
     margin-top: 10vh;
 
 
@@ -266,7 +265,7 @@ header ul li a:hover::before {
 .sec-card{
     background-color: #2A3556;
     margin-top: -50.5vh;
-    margin-left: 80vh;
+    margin-left: 95vh;
 }
 
 
@@ -298,7 +297,7 @@ header ul li a:hover::before {
 .know-more-ino{
 
     font-size: 1.2rem;
-    margin-top: 13.8rem;
+    margin-top: 10rem;
     color: red;
     text-align: center;
 
@@ -307,14 +306,14 @@ header ul li a:hover::before {
 .know-more-eco  {
 
     font-size: 1.2rem;
-    margin-top: 12rem;
+    margin-top: 8rem;
     color: #14c900;
     text-align: center;
 }
 
 .know-more-sec  {
     font-size: 1.2rem;
-    margin-top: 12.1rem;
+    margin-top: 7.8rem;
     color: #67c2ff;
     text-align: center;
 }
@@ -343,92 +342,6 @@ header ul li a:hover::before {
     margin-top: -5vh;
 
 }
-
-/***************************************/
-/* INNOVATION PAGE  */
-/***************************************/
-
-
-#ino-img{
-    margin-left: 50vh;
-    margin-top: -20vh;
-    width: 50%;
-    max-width: 100%;
-}
-
-/***************************************/
-/* ENV PAGE  */
-/***************************************/
-
-.inline{
-    display: flex;
-}
-
-#eco-im-1,
-#eco-im-2{
-    width: 40%;
-    display: block;
-    margin: 25vh auto;
-    padding-left: 2rem;
-}
-
-
-
-.description-eco{
-    display: block;
-    margin: -23vh auto;
-    color: white;
-    width: 200px;
-    text-align: center;
-
-}
-
-.inline-text{
-    display: flex;
-
-}
-
-
-#subtitle-env-page{
-    color: #ffffff;
-    font-size: 1.3rem;
-    margin-top: 1.9rem;
-    max-width: 600px;
-    line-height: 1.5;
-    text-align: justify;
-}
-
-
-/***************************************/
-/* OUR SOLUTION PAGE  */
-/***************************************/
-
-.smaller-section{
-    height: 55rem;
-    background: #212529;
-}
-
-.solution-title{
-    font-size:  3.4rem;;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -521,8 +434,17 @@ header ul li a:hover::before {
 
     .big-title {
         margin-top: 15vh ;
-        margin-left: 2.5vh;
+        margin-left:2.5vh;
         font-size: 1.9rem;
+    }
+
+    .features-card{
+        max-width: 33rem;
+        width: 20rem;
+    }
+
+    .ino-icon{
+        margin-left: 4rem;
     }
 
     .presentation-title,
@@ -622,43 +544,4 @@ header ul li a:hover::before {
     }
 
 }
-
-/***************************************/
-/* RESPONSIVE DESIGN INNOVATION PAGE  */
-/***************************************/
-@media screen and (max-width: 1365px){
-    .ino-title{
-        margin-left: 2.5vh;
-        font-size: 1.9rem;
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-
-    #ino-img{
-        display: block;
-        margin: auto;
-        margin-top: 5rem;
-        width: 30%;
-        max-width: 100%;
-    }
-
-}
-
-/***************************************/
-/* RESPONSIVE DESIGN ECOLOGY PAGE  */
-/***************************************/
-@media screen and (max-width: 1365px) {
-    .eco-title {
-        margin-left: 2.5vh;
-        font-size: 1.9rem;
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    #subtitle-env-page {
-        margin: 8vh auto;
-    }
-}
-
 
