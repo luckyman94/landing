@@ -1,16 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /**********************/
 /* ALL DOCUMENT */
 /**********************/
 
-:root{
-    --primary-color: #212529;
-    --grey:#cac7c7;
-    --overlay:#0000009c;
-
-
-}
 
 *,
 *::before,
@@ -29,16 +22,6 @@ body {
     overflow-x: hidden;
 
 }
-
-.bg-primary{
-    background-color: var(--primary-color);
-    color: white;
-}
-hr{
-    border-color: var(--primary-color);
-}
-
-
 
 /**********************/
 /* NAVBAR */
@@ -64,6 +47,13 @@ header{
     align-items: center;
     box-shadow: 0 15px 15px rgba(0,0,0,0.5);
 
+}
+
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    z-index: 100;
 }
 
 .logo{
@@ -119,15 +109,12 @@ header ul li a:hover::before {
 }
 
 
-
-
-
 /**********************/
 /* LANDING  */
 /**********************/
 
 .main-section{
-    height: 80rem;
+    height: 90rem;
     background: linear-gradient(0deg, #212529, #212529 40%, #2A3556);;
 
 }
@@ -201,7 +188,6 @@ header ul li a:hover::before {
     font-size: 2.4rem;
     color: white;
     margin-left: -5rem;
-
     line-height: 1.4;
 }
 
@@ -213,6 +199,7 @@ header ul li a:hover::before {
     margin-left: -5rem;
     max-width: 600px;
     line-height: 2.3;
+    z-index: 10;
 }
 
 
@@ -229,14 +216,30 @@ header ul li a:hover::before {
 /* WHO ARE US PAGE */
 /**********************/
 
+
+.classic-section{
+    height: 90rem;
+    background: #212529;
+}
+
+.description{
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 1.9rem;
+    margin-left: -5rem;
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
 .features{
 
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     font-weight: 100;
-    height: 80rem;
+
 
 }
 
@@ -245,68 +248,52 @@ header ul li a:hover::before {
     width: 25rem;
     font-size: 1.5rem;
     height: 35rem;
-
-    margin:  3rem ;
-
     padding: 1.5em;
-
     max-width: 33rem;
     border-radius: 6rem;
+    margin-left: -80vh;
+    margin-top: 10vh;
+
 
 }
 
-.description{
-    margin: 50rem 3rem -15rem 20rem;
-    color: #ffffff;
-    width: 60rem;
-    font-size: 20px;
-    text-align: justify;
-
+.eco-card{
+    background: #2A3556;
+    margin-top: -50.5vh;
+    margin-left: 0;
 }
 
-.title{
-    margin-bottom: -43rem;
-    margin-left: 2.5vh;
-    font-size: 3.4rem;
+.sec-card{
+    background-color: #2A3556;
+    margin-top: -50.5vh;
+    margin-left: 80vh;
 }
 
-.ino{
-    margin-top: 1rem;
-}
-
-.eco{
-    margin-top: 1rem;
-}
-
-.sec{
-    margin-top: 1rem;
-}
 
 .ino-icon{
     padding-top: 2rem;
     max-width: 100%;
     width: 50%;
     margin-left: 5rem;
-}
 
+}
 
 .eco-icon{
     padding-top: 1.5rem;
     width: 50%;
     margin-left: 5rem;
     max-width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
 
 }
 
 .sec-icon{
-    padding-top: 1rem;
-    width: 50%;
+    padding-top: 2.1rem;
+    width: 45%;
     margin-left: 5rem;
     max-width: 100%;
+    margin-bottom: 0.5rem;
 }
-
-
 
 .know-more-ino{
 
@@ -327,7 +314,7 @@ header ul li a:hover::before {
 
 .know-more-sec  {
     font-size: 1.2rem;
-    margin-top: 12.5rem;
+    margin-top: 12.1rem;
     color: #67c2ff;
     text-align: center;
 }
@@ -335,7 +322,112 @@ header ul li a:hover::before {
 .quality{
     font-size: 1.6rem;
     text-align: center;
+    color: white;
 }
+
+
+/***************************************/
+/* OUR SECURITY PAGE  */
+/***************************************/
+
+.security-title{
+
+    margin-bottom: 3rem;
+}
+
+
+
+#sec-img{
+    width: 50%;
+    margin-left: 55vh;
+    margin-top: -5vh;
+
+}
+
+/***************************************/
+/* INNOVATION PAGE  */
+/***************************************/
+
+
+#ino-img{
+    margin-left: 50vh;
+    margin-top: -20vh;
+    width: 50%;
+    max-width: 100%;
+}
+
+/***************************************/
+/* ENV PAGE  */
+/***************************************/
+
+.inline{
+    display: flex;
+}
+
+#eco-im-1,
+#eco-im-2{
+    width: 40%;
+    display: block;
+    margin: 25vh auto;
+    padding-left: 2rem;
+}
+
+
+
+.description-eco{
+    display: block;
+    margin: -23vh auto;
+    color: white;
+    width: 200px;
+    text-align: center;
+
+}
+
+.inline-text{
+    display: flex;
+
+}
+
+
+#subtitle-env-page{
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 1.9rem;
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+/***************************************/
+/* OUR SOLUTION PAGE  */
+/***************************************/
+
+.smaller-section{
+    height: 55rem;
+    background: #212529;
+}
+
+.solution-title{
+    font-size:  3.4rem;;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -392,7 +484,7 @@ header ul li a:hover::before {
 
 
 
-@media screen and (max-width: 1540px) {
+@media screen and (max-width: 1365px) {
 
     .overlay {
         display: block;
@@ -433,6 +525,15 @@ header ul li a:hover::before {
         font-size: 1.9rem;
     }
 
+    .presentation-title,
+    .security-title,
+    .eco-title,
+    .ino-title ,
+    .solution-title{
+        margin-top: -15vh;
+    }
+
+
     .text {
         font-size: 1.5rem;
         margin-left: 2.5vh;
@@ -440,10 +541,12 @@ header ul li a:hover::before {
 
     }
 
+
     .cover {
         width: 100%;
         margin-top: 0;
         transform: none;
+        z-index: 10;
     }
 
 
@@ -460,6 +563,7 @@ header ul li a:hover::before {
 
     .btn--full{
         margin-left: 2vh;
+        z-index: 10;
     }
 
 
@@ -472,56 +576,89 @@ header ul li a:hover::before {
 
 
 
-@media screen and (max-width:1940px) {
 
 
-
-    .features-card{
-        margin-left: 0;
-        width: 20rem;
-        margin-right: 5rem;
+@media screen and (max-width: 1365px) {
+    .presentation-title{
+        margin-left: 2.5vh;
+        font-size: 1.9rem;
+        text-align: center;
+        margin-bottom: 2rem;
     }
 
-    .quality{
-        font-size: 1.4rem;
+    .description{
+        display: block;
+        margin: auto;
+    }
+
+    .eco-card,
+    .sec-card{
+        visibility: hidden;
+    }
+
+    .ino-card{
+        align-content: center;
+        margin: 3rem auto ;
+
+    }
+}
+
+
+/***************************************/
+/* RESPONSIVE DESIGN SECURITY PAGE  */
+/***************************************/
+@media screen and (max-width: 1365px){
+    .security-title{
+        margin-left: 2.5vh;
+        font-size: 1.9rem;
+        text-align: center;
+        margin-bottom: 4rem;
     }
 
 
-    .know-more-ino{
-
-        font-size: 1.2rem;
-        margin-top: 12rem;
-    }
-
-    .know-more-sec{
-        margin-top: 12rem;
-    }
-
-    .ino-icon{
-        margin-left: 4rem;
-    }
-
-
-    .eco-icon{
-        margin-left: 4rem;
-
-    }
-
-    .sec-icon{
-        margin-left: 4rem;
-        margin-bottom: 0.8rem;
+    #sec-img{
+        display: block;
+        margin: auto;
     }
 
 }
 
-
-
-
-
 /***************************************/
-/* RESPONSIVE DESIGN SOLUTION PAGE  */
+/* RESPONSIVE DESIGN INNOVATION PAGE  */
 /***************************************/
-.classic-section{
-    height: 10rem;
-    background-color: #212529;
+@media screen and (max-width: 1365px){
+    .ino-title{
+        margin-left: 2.5vh;
+        font-size: 1.9rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+
+    #ino-img{
+        display: block;
+        margin: auto;
+        margin-top: 5rem;
+        width: 30%;
+        max-width: 100%;
+    }
+
 }
+
+/***************************************/
+/* RESPONSIVE DESIGN ECOLOGY PAGE  */
+/***************************************/
+@media screen and (max-width: 1365px) {
+    .eco-title {
+        margin-left: 2.5vh;
+        font-size: 1.9rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    #subtitle-env-page {
+        margin: 8vh auto;
+    }
+}
+
+

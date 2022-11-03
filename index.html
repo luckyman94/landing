@@ -1,18 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APP</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Document</title>
 </head>
 <body>
 <main>
     <div class="fixed">
     <header>
-        <img class="logo" src="logo.png">
+        <img alt="logo" class="logo" src="logo.png">
         <div class="group">
             <ul class="navigation">
                 <li><a href="#">Accueil</a></li>
@@ -26,8 +29,8 @@
 
             <ion-icon name="menu-outline" class="menuToggle"></ion-icon>
         </div>
-        </div>
     </header>
+    </div>
     <section class="main-section">
         <div class="showcase-area">
             <div class="container">
@@ -43,65 +46,192 @@
                     </div>
                 </div>
 
-                <div class="right">
+                <div>
                     <img src="home-image.png" alt="Person Image" class="cover" />
                 </div>
             </div>
         </div>
-
-
     </section>
 
-    <section class="bg-primary">
+    <section class="classic-section">
+        <div class="showcase-arena">
+            <div class="container">
+                <div class="left">
+                    <div class="big-title presentation-title">
+                        <h1>Qui sommes-nous ?</h1>
+                    </div>
+                    <p class="description">
+                        Is’Health est une jeune Start-up spécialisée dans
+                        le développement de services liés à la santé. Nous
+                        avons développé I Connect, un système innovant et
+                        révolutionnaire qui pour permet de surveiller
+                        constamment votre santé ainsi que l’état de
+                        l’environnement qui vous entoure. Que vous soyez
+                        atteints de maladie cardiaque ou pulmonaire, asthmatique
+                        ou juste soucieux de votre santé, notre dispositif
+                        est fait pour vous.
 
-        <h2 class="title">Qui sommes nous ? </h2>
-        <p class="description">
-            Is’Health est une jeune Start-up spécialisée dans
-            le développement de services liés à la santé. Nous
-            avons développé I Connect, un système innovant et
-            révolutionnaire qui pour permet de surveiller
-            constamment votre santé ainsi que l’état de
-            l’environnement qui vous entoure. Que vous soyez
-            atteints de maladie cardiaque ou pulmonaire, asthmatique
-            ou juste soucieux de votre santé, notre dispositif
-            est fait pour vous.
-        </p>
+                    </p>
+                    </div>
+            </div>
+        </div>
         <div class="center">
             <div class="features">
-                <div class="features-card">
+                <div class="features-card ino-card">
                     <img src="images/innovation-bubble-icon.png" class="ino-icon">
                     <h6 class="quality ino">Nous sommes innovants</h6>
                     <p class="know-more-ino">En savoir plus
                     </p>
                 </div>
-                <div class="features-card">
+            </div>
+        </div>
+
+        <div class="center">
+            <div class="features">
+                <div class="features-card eco-card">
                     <img src="images/ecology-icon.png" class="eco-icon">
-                    <h6 class="quality eco">Nous nous soucions de notre planète.</h6>
+                    <h6 class="quality eco">Nous nous soucions de notre planète</h6>
                     <p class="know-more-eco">En savoir plus
                     </p>
                 </div>
-                <div class="features-card security-card">
+            </div>
+        </div>
+
+
+        <div class="center">
+            <div class="features">
+                <div class="features-card sec-card">
                     <img src="images/security-icon.png" class="sec-icon">
-                    <h6 class="quality sec">Nous protégeons vos données</h6>
-                    <p class="know-more-sec">
-                        En savoir plus
+                    <h6 class="quality eco">Nous protégeons vos données</h6>
+                    <p class="know-more-sec">En savoir plus
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
 
     <section class="classic-section">
+        <div class="showcase-arena">
+            <div class="container">
+                <div class="left">
+                    <div class="big-title security-title">
+                        <h1>Parce que sécurité rime avec tranquillité</h1>
+                    </div>
+                    <p class="description">
+                        Is'Health est une startup d'ingénieurs issus d'une école spécialisée dans
+                        le domaine du numérique.
+                        Tous nos programmes sont conçus dans l'objectif de protéger
+                        au maximum toutes les données. <br>
+                        Nous protégeons vos informations personnelles à chaque étape grâce à des
+                        protocoles de cryptage et des logiciels. <br>
+                        Pour renforcer toutes les mesures existantes, nous vous recommandons
+                        d'utiliser un mot de passe unique lors de la création de votre compte I-Service
+                    </p>
+                </div>
+                <div>
+                    <img src="images/security-page.png" id="sec-img">
+
+                </div>
+            </div>
+        </div>
 
     </section>
+
+    <section class="classic-section">
+        <div class="showcase-arena">
+            <div class="container">
+                <div class="left">
+                    <div class="big-title ino-title">
+                        <h1>Un système innovant</h1>
+                    </div>
+                    <p class="description">
+                       L'IoT (Internet of Things) est l'une des technologies du numériques ayant
+                        connu le développement le plus fulgurant durant ces dernières décennies.
+                        Bureaux, usines, logements… les écosystèmes d'appareils connectés à Internet
+                        sont désormais ancrés dans notre quotidien.
+
+                        C'est pour cela que nous avons développé un système complet permettant la collecte
+                        et l'affichage de données environnementales et de santé dans différents contextes,
+                        tout en sensibilisant ses utilisateurs aux enjeux écologiques actuels
+                    </p>
+                </div>
+                <div>
+                    <img src="images/ino-page.png" id="ino-img">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="classic-section">
+        <div class="showcase-arena">
+            <div class="container">
+                <div class="left">
+                    <div class="big-title eco-title">
+                        <h1>Notre engagement pour l'environnement</h1>
+                        <p id="subtitle-env-page">
+                            Nous nous engageons à réduire nos émission de carbone à court et long terme Nous nous engageons
+                            à réduire nos émission de carbone à court et long terme.
+                        </p>
+                    </div>
+
+                    <div class="inline">
+                        <img src="images/env-im-1.png" id="eco-im-1">
+
+                        <img src="images/env-im-2.png" id="eco-im-2">
+
+
+
+                        
+
+                    </div>
+
+                    <div class="inline-text">
+                        <p class="description-eco">
+
+                            Déconnexion automatique en cas d'arrêt prolongé
+                        </p>
+
+                        <p class="description-eco">
+
+                            Déployé sur un hébergeur vert, notre site se veut éco responsable.
+                        </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="smaller-section">
+        <div class="showcase-arena">
+            <div class="container">
+                <div class="left">
+                    <div class="big-title solution-title">
+                        Notre produit
+                    </div>
+                    <p class="description">
+                        Is'Health a mis en place un dispositif connecté qui
+                        permet de sureiller en temps réel l'état de votre corps
+                        et celui de l'environnement qui vous entoure.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
 
 </main>
-
-
 
 
 
@@ -111,5 +241,6 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="app.js"></script>
+<script src="navbar.js"></script>
 </body>
 </html>
