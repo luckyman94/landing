@@ -25,6 +25,7 @@ body {
 
 /**********************/
 /* NAVBAR */
+
 /**********************/
 
 
@@ -40,7 +41,7 @@ header{
     left: 0;
     width: 100%;
     height: 90px;
-    background: #a90707;
+    background: #ffffff;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -227,7 +228,7 @@ header ul li a:hover::before {
     font-size: 1.3rem;
     margin-top: 1.9rem;
     margin-left: -5rem;
-    max-width: 600px;
+    max-width: 850px;
     line-height: 1.5;
     text-align: justify;
 }
@@ -250,22 +251,22 @@ header ul li a:hover::before {
     padding: 1.5em;
     max-width: 33rem;
     border-radius: 6rem;
-    margin-left: -95vh;
-    margin-top: 10vh;
+    margin-left: -55rem;
+    margin-top: 8rem;
 
 
 }
 
 .eco-card{
     background: #2A3556;
-    margin-top: -50.5vh;
+    margin-top: -30.5rem;
     margin-left: 0;
 }
 
 .sec-card{
     background-color: #2A3556;
-    margin-top: -50.5vh;
-    margin-left: 95vh;
+    margin-top: -30.5rem;
+    margin-left: 55rem;
 }
 
 
@@ -438,14 +439,7 @@ header ul li a:hover::before {
         font-size: 1.9rem;
     }
 
-    .features-card{
-        max-width: 33rem;
-        width: 20rem;
-    }
 
-    .ino-icon{
-        margin-left: 4rem;
-    }
 
     .presentation-title,
     .security-title,
@@ -508,6 +502,11 @@ header ul li a:hover::before {
         margin-bottom: 2rem;
     }
 
+    .features-card{
+        max-width: 33rem;
+        width: 20rem;
+    }
+
     .description{
         display: block;
         margin: auto;
@@ -522,6 +521,12 @@ header ul li a:hover::before {
         align-content: center;
         margin: 3rem auto ;
 
+    }
+
+
+
+    .ino-icon{
+        margin-left: 4rem;
     }
 }
 
